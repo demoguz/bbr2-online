@@ -1,0 +1,35 @@
+BBR2 Online {VERSION} - Beach Buggy Racing 2 icin online cok oyunculu (resmi olmayan mod)
+Ayrintili Ingilizce aciklama: README.txt
+
+KURULUM
+1) Oyunu kapat.
+2) Steam: Kitaplik > Beach Buggy Racing 2 > sag tik > Yonet > Yerel dosyalara goz at.
+   Bu zip'in icindekileri o klasore cikar (Game_x64.exe'nin oldugu klasor):
+   version.dll ve bbr2mod klasoru (icinde ui ve steam klasorleri). Uzerine yazmak isterse "evet" de.
+3) Oyunu ac. Ana menude "Online" butonu gorunmeli.
+Kaldirmak icin oyun kapaliyken version.dll'i ve bbr2mod klasorunu sil.
+Lobideki herkes ayni mod surumunu kullanmali; farkli surumler baglanirken reddedilir.
+
+BAGLANMA
+- Online > Name: adini yaz.
+- Ev sahibi: Online > Create Lobby. Lobide "Lobby code: K7Q2M" gibi bir kod cikar.
+  Kodu arkadasina soyle ya da "Invite Friends" ile Steam davet penceresini ac.
+- Katilan: Online > Join Lobby: kodu (buyuk/kucuk harf farketmez) ya da ev sahibinin IP'sini yaz,
+  ya da Steam davetine tikla.
+- Lobide "Choose Car & Driver" ile aracini sec; secince "Ready" olursun. Yarisi ev sahibi baslatir.
+- Ev sahibi bos kartlari Open / Bot / Closed arasinda degistirir, pisti secer (Random: her yaris rastgele).
+
+YARIS
+- Geri sayim herkeste ayni anda biter.
+- Biri yaristan cikarsa aracini yapay zeka devralir.
+- Sonuclari ev sahibi belirler: bitirince diger oyuncular beklenir (ilk bitirenden sonra en fazla 30 sn),
+  sonra herkes ayni sonuc tablosunu gorur. O sureye kadar bitiremeyen bitirenlerin arkasina yazilir.
+- Yaris surerken lobiye katilan oyuncu lobide bekler, sonraki yarisa girer.
+
+AYAR: bbr2mod\online.ini -> steam=game (varsayilan, herkesin oyunu Steam'de olmali) | spacewar | off (yalnizca IP)
+- Ayar yalnizca senin kurdugun lobinin agini secer; kodla katilma iki agda da calisir.
+- IP ile katilmada ev sahibi UDP 27420'yi dinler (LAN, ZeroTier ya da port yonlendirme).
+
+SORUN OLURSA
+- bbr2mod\netlog.txt ve netlog_prev.txt dosyalarini gonder. Icinde oyuncu adlari, IP'ler ve lobi kodu var;
+  herkese acik bir yere koymadan once bak.
